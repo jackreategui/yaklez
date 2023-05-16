@@ -4,9 +4,15 @@
     --gray2: #505557;
     --white: #FFFFFF;
     --white2: #EDF2F4;
-    --blue: #1982C4;
     --yellow: #FFD60A;
     --red: #D90429;
+}
+
+nav, main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .nav_container{
@@ -20,7 +26,10 @@
 
     background-color: var(--black);
 
-    position: relative;
+    position: fixed;
+    margin: 0 auto;
+
+    border-radius: 1em;
 }
 
 .logo_nav{
@@ -109,3 +118,65 @@
     transition: 0.3s ease-in;
 }
 
+.titulo_container{
+    width: 100%;
+
+    background-color: var(--black);
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+
+    width: 100%;
+    max-width: 1440px;
+    height: 100vh;
+
+    margin: 0 auto;
+    padding: 0 16px;
+
+}
+
+.main_h1{
+    width: 280px;
+
+    color: var(--yellow);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.sm_icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 160px;
+}
+
+.sm_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 30px;
+    height: 30px;
+
+    padding: 5px;
+    border: 1px solid var(--white2);
+}
+
+.sm_icon:hover{
+    border: none;
+    background-color: var(--yellow);
+
+    transition: 0.2s ease;
+}
+
+.sm_icon img:hover{
+    transition: 0.2s ease;
+
+    filter: invert(100%) sepia(2%) saturate(4108%) hue-rotate(149deg) brightness(95%) contrast(87%);
+}
