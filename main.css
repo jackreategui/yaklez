@@ -409,9 +409,10 @@ footer{
 @media (min-width: 767px) {
     .nav_container{
         max-width: 90%;
-        max-height: 40px;
+        max-height: 55px;
 
         top: 16px;
+        padding: 10px 50px;
     }
     
     .icono_hamburger{
