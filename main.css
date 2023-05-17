@@ -413,6 +413,11 @@ footer{
     font-weight: 400;
 }
 
+.info a:hover{
+    transition: 0.2s ease-in;
+    color: var(--gray2);
+}
+
 @media (min-width: 767px) {
     .nav_container{
         max-width: 90%;
