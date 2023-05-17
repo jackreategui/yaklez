@@ -35,6 +35,8 @@ nav, main{
 .logo_nav{
     position: relative;
     z-index: 100;
+    height: 95%;
+    color: var(--white);
 }
 
 .icono_hamburger{
@@ -285,7 +287,7 @@ nav, main{
 
 .contacto_container{
     width: 100%;
-    height: 100vh;
+    height: 700px;
 
     background-color: var(--white);
 }
@@ -376,7 +378,7 @@ footer{
     display: none;
 }
 
-.footer_info, .info{
+.footer_info{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -402,4 +404,154 @@ footer{
     color: var(--black);
     font-size: 13px;
     font-weight: 400;
+}
+
+@media (min-width: 767px) {
+    .nav_container{
+        max-width: 90%;
+        max-height: 40px;
+
+        top: 16px;
+    }
+    
+    .icono_hamburger{
+        display: none;
+    }
+
+    .nav_overlay{
+        display: flex;
+    }
+
+    .nav_ul{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    
+        gap: 1em;
+    
+        color: var(--white);
+    
+        position: unset;
+    
+        font-size: 13px;
+        font-weight: 400;
+    
+        padding: 0px;
+    }
+
+    .main_h1{
+        width: 600px;
+        font-size: 52px;
+        font-weight: 700;
+    }
+
+    .proyectos_h2{
+        width: 600px;
+        font-size: 62px;
+        font-weight: 700;
+    }
+
+    .contacto, .proyectos_text, .titulo{
+        padding: 0 32px;
+    }
+
+    .contacto_h2{
+        width: 600px;
+        font-size: 82px;
+        font-weight: 700;
+    }
+
+    .footer_container{
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+        justify-content: space-between;
+        align-items: center;
+    
+        width: 100%;
+        max-width: 1440px;
+    
+        padding: 50px 32px;
+        margin: 0 auto;
+    
+        border-top: 1px solid var(--white2);
+    }
+
+    .footer_container>a{
+        display: none;
+    }
+
+    .footer_info{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 3em;
+
+        width: 100%;
+    }
+}
+
+@media (min-width: 900px) {
+    .nav_container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        width: 90%;
+        max-width: 1440px;
+        padding: 10px 16px;
+    
+        background-color: var(--black);
+    
+        position: fixed;
+        margin: 0 auto;
+    
+        border-radius: 1em;
+    }
+
+    .contacto, .proyectos_text, .titulo{
+        padding: 0 50px;
+    }
+
+    .servicios{
+        padding: 100px 32px;
+    }
+
+    .main_h1{
+        width: 900px;
+        font-size: 75px;
+        font-weight: 700;
+    }
+
+    .proyectos_h2{
+        width: 900px;
+        font-size: 82px;
+        font-weight: 700;
+    }
+
+    .contacto_h2{
+        width: 900px;
+        font-size: 92px;
+        font-weight: 700;
+    }
+
+    .footer_container{
+        padding: 50px 32px;
+    }
+
+    .footer_container>a, .logo_footer{
+        display: unset;
+    }
+
+    .footer_info{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+        gap: 3em;
+
+        width: 400px;
+    }
 }
