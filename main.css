@@ -84,14 +84,17 @@ nav, main{
 .nav_overlay--show{
     display: unset;
 
-    width: 100%;
+    width: 100vw;
     height: 100vh;
 
     background-color: var(--black);
 
     position: fixed;
-    top: 0;
-    left: 0;
+    top: -16px;
+    left: -22px;
+    right: 0;
+    bottom: 0;
+    z-index: 90;
 
     transition: 0.3s ease-in;
 }
@@ -106,8 +109,8 @@ nav, main{
     color: var(--white);
 
     position: relative;
-    top: 50px;
-    left: 0;
+    top: 80px;
+    left: -50px;
     right: 0;
 
     font-size: 24px;
@@ -215,6 +218,8 @@ nav, main{
     max-width: 1440px;
     height: 100%;
 
+    position: relative;
+    
     padding: 0 16px;
     margin: 0 auto;
 }
