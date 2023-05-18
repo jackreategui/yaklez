@@ -1,3 +1,5 @@
+AOS.init();
+
 const iconHamburger = document.querySelector('.icono_hamburger');
 const navOverlay = document.querySelector('.nav_overlay');
 
