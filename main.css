@@ -148,7 +148,7 @@ nav, main{
 }
 
 .main_h1{
-    width: 280px;
+    width: 250px;
 
     color: var(--yellow);
     font-size: 24px;
@@ -546,19 +546,19 @@ footer{
     }
 
     .main_h1{
-        width: 900px;
+        width: 800px;
         font-size: 75px;
         font-weight: 700;
     }
 
     .proyectos_h2{
-        width: 900px;
+        width: 700px;
         font-size: 82px;
         font-weight: 700;
     }
 
     .contacto_h2{
-        width: 900px;
+        width: 700px;
         font-size: 92px;
         font-weight: 700;
     }
