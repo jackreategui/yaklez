@@ -9,6 +9,14 @@
     --yellow: #FFD60A;
     --red: #D90429;
 }
+body{
+    hyphens: unset; 
+}
+
+::selection {
+    background-color: var(--yellow); /* Cambia el color de fondo de selección a amarillo */
+    color: var(--black); /* Cambia el color del texto seleccionado a negro */
+}
 
 nav, main{
     width: 100%;
