@@ -11,7 +11,7 @@
 }
 
 h1{
-    font-size: 3rem;
+    font-size: clamp(2.5, 3vw, 3rem);
     font-weight: 900;
     color: var(--black);
 }
