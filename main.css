@@ -169,7 +169,7 @@ nav{
     width: 250px;
 
     color: var(--yellow);
-    font-size: 3rem;
+    font-size: min(2em, 3em);
     font-weight: 700;
 }
 
@@ -245,7 +245,7 @@ nav{
 .proyectos_h2{
     width: 300px;
     color: var(--white);
-    font-size: 3rem;
+    font-size: min(2em, 3em);
     font-weight: 700;
 }
 
