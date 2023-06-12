@@ -10,7 +10,7 @@
 }
 
 h1{
-    font-size: 42px;
+    font-size: 3rem;
     font-weight: 700;
     color: var(--black);
 }
@@ -60,7 +60,7 @@ a:hover{
     margin: 0 auto 100px;
 
     position: relative;
-    top: 150px;
+    top: 50px;
 
     padding: 0 16px;
 }
