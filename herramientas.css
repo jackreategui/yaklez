@@ -10,8 +10,8 @@
 }
 
 h1{
-    font-size: 3rem;
-    font-weight: 700;
+    font-size: 2em;
+    font-weight: 900;
     color: var(--black);
 }
 
@@ -89,7 +89,7 @@ a:hover{
     gap: 16px;
     align-items: center;
 
-    width: 400px;
+    width: minmax(200px, 400px);
 }
 
 .card_programa img{

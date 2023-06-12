@@ -11,13 +11,14 @@
 }
 
 .row{
-    max-width: 1200px;
+    width: 100%;
+    max-width: 1440px;
     display: grid;
     /* grid-template-columns: repeat(4, 1fr); */
     grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
-    padding: 30px 32px 0;
+    padding: 0;
     gap: 0;
-    margin-top: 100px;
+    margin: 50px auto;
 }
 
 .row a{
