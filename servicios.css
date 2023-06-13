@@ -46,6 +46,54 @@ p{
     padding: 50px 32px;
 }
 
+.container_metodos{
+    width: 100%;
+    background-color: var(--black);
+}
+
+.metodos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1em;
+
+    width: 100%;
+    max-width: 1200px;
+
+    padding: 60px 32px;
+    margin: 0 auto;
+
+}
+
+.metodo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+
+    width: 100%;
+    max-width: 500px;
+}
+
+.metodo>h2{
+    color: var(--yellow);
+}
+
+.metodo>p{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+
+    color: var(--white);
+}
+
+.metodo>p>span{
+    font-weight: 700;
+    color: var(--yellow);
+}
+
 .serv_container{
     display: flex;
 
