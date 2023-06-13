@@ -3,11 +3,11 @@ const footerContainer = document.getElementById('footer');
 const contactoContainer = document.getElementById('contacto');
 
 // Carga el encabezado
-fetch('./contenedores_html/header.html')
-    .then(response => response.text())
-    .then(data => {
-        headerContainer.innerHTML = data;
-    });
+// fetch('./contenedores_html/header.html')
+//     .then(response => response.text())
+//     .then(data => {
+//         headerContainer.innerHTML = data;
+//     });
 
 // Carga el pie de página
 fetch('./contenedores_html/footer.html')
