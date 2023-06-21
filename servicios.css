@@ -171,11 +171,11 @@ p{
     .indice_serv{
         display: flex;
         flex-direction: column;
-        gap: 100px;
+        gap: 50px;
         justify-content: space-between;
 
         width: 300px;
-        height: 300px;
+        height: 230px;
     }
 
     .indice_serv>ul{
