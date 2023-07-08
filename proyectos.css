@@ -54,6 +54,13 @@
     transition: 0.4s ease;
 }
 
+.description_proyect{
+    max-width: 900px;
+    text-align: center;
+
+    padding: 16px;
+}
+
 /* .row a img:hover{
     background-color: var(--black);
     opacity: 0.3;
