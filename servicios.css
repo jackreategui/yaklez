@@ -50,6 +50,9 @@ p{
     align-items: center;
     gap: 20px;
 }
+.titulo_serv h1{
+    text-align: center;
+}
 
 .titulo_serv p{
     font-size: 1em;
@@ -156,42 +159,9 @@ p{
     line-height: 24px; /* 120% */
 }
 
-.contacto_mini{
-    display: flex;
-    padding: 24px 16px;
-    flex-direction: column;
-    align-items: center;
-    gap: 72px;
-    align-self: stretch;
-
-    background-color: var(--black);
-}
-
-.info_contacto_mini{
-    display: flex;
-    padding: 24px;
-    flex-direction: column;
-    align-items: center;
-    gap: 24px;
-}
-
-.info_contacto_mini h3{
-    color: var(--yellow);
-}
-.info_contacto_mini p{
-    color: var(--white, #FFF);
-    text-align: center;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-
-    max-width: 280px;
-}
-
 .mini_servicio_boton{
     display: flex;
-    width: 80%;
+    width: 100%;
     max-width: 200px;
     padding: 8px 16px;
     justify-content: center;
@@ -199,7 +169,7 @@ p{
     gap: 10px;
 
     border-radius: 8px;
-    border: 1px solid var(--yellow, #FFD60A);
+    border: 1px solid var(--yellow);
     color: var(--yellow);
 
     transition:  0.2s ease-out;
@@ -213,7 +183,7 @@ p{
 
 .tabla_pack_servicios{
     display: flex;
-    padding: 100px 0px;
+    padding: 0px 0px 100px 0;
     flex-direction: column;
     align-items: center;
     gap: 50px;
@@ -232,12 +202,14 @@ p{
     height: 1000px; */
 }
 
+
 .servicios_packs{
     display: flex;
-    padding: 10px 16px;
+    padding: 0px 16px;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 1px;
     align-self: stretch;
 
@@ -247,15 +219,24 @@ p{
 .servicio_pack{
     display: flex;
     flex-direction: column;
-    justify-content: start;
-    align-items: center;
+    justify-content: space-between;
+    align-items: start;
+    align-content: start;
     gap: 24px;
     align-self: stretch;
     padding: 32px 16px;
     
     background-color: var(--black);
 
-    max-width: 400px;
+    max-width: 500px;
+    
+}
+
+.contacto_pack{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
 }
 
 .conteiner_info_pack{
@@ -295,6 +276,15 @@ p{
 
 .ul_entregables li{
     margin-bottom: 8px;
+}
+
+.contacto_precio{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: start;
+
+    padding: 0 16px;
 }
 
 .precio_pack{
@@ -361,6 +351,46 @@ p{
     padding: 16px 0 16px 16px;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
+    h1{
+        font-size: 4em;
+        font-weight: 900;
+        color: var(--black);
+    }
+
+    h2{
+        font-size: 1.7em;
+        font-weight: 700;
+        color: var(--black);
+    }
     
+    h3{
+        font-size: 1.5em;
+        font-weight: 500;
+        color: var(--black);
+    }
+    
+    h4{
+        font-size: 1.2em;
+        font-weight: 400;
+        color: var(--black);
+    }
+    
+    p{
+        font-size: 1em;
+        font-weight: 300;
+        color: var(--black);
+    }
+
+    .servicios_packs{
+        flex-direction: row;
+    }
+
+    .servicio_pack{
+        height: 800px;
+    }
+
+    .conteiner_info_pack{
+        justify-content: space-between;
+    }
 }
