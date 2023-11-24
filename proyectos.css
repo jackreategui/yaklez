@@ -61,6 +61,12 @@
     padding: 16px;
 }
 
+@media (max-width: 600px) {
+    .row{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
 /* .row a img:hover{
     background-color: var(--black);
     opacity: 0.3;
@@ -71,9 +77,3 @@
         grid-template-columns: repeat(2, 1fr);
     }
 }
-
-@media (max-width: 600px) {
-    .row{
-        grid-template-columns: repeat(1, 1fr);
-    }
-} */
